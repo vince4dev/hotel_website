@@ -3,6 +3,11 @@
   height: 7.5rem;
   display: flex;
   flex-direction: column;
+
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
 }
 
 .nav_top {
@@ -44,11 +49,6 @@
   padding: 0 12%;
   height: 5rem;
   align-items: center;
-
-  position: fixed;
-  z-index: 9999;
-  top: 50px;
-  left: 0;
 }
 
 .nav_bottom .logo a {

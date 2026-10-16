@@ -13,7 +13,7 @@ function Nav() {
       <div className={navCSS.nav_top}>
         <div className={navCSS.left_side}>
           <span>+33 (0)7 54 67 87 36</span>
-          <span>vince@company.com</span>
+          <span>contact@herittage.com</span>
         </div>
         <div className={navCSS.right_side}>
           <span>ENG-</span>
