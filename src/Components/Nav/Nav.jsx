@@ -33,7 +33,7 @@ function Nav() {
         {/* Mav Menu */}
         <ul ref={menu}>
           <li>
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#about">About</a>

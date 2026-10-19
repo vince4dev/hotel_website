@@ -11,7 +11,7 @@ import ratingImg from "./../../assets/rating-image-1.png";
 
 function Header() {
   return (
-    <div className={headerCSS.header_wrapper}>
+    <div className={headerCSS.header_wrapper} id="home">
       <div className={headerCSS.Swiper_Slider_wrapper}>
         <Swiper
           slidesPerView={1}

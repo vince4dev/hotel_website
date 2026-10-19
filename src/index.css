@@ -9,6 +9,8 @@
   text-decoration: none;
 
   font-family: "Forum";
+
+  scroll-behavior: smooth;
 }
 
 button {
@@ -57,4 +59,17 @@ button:hover::after {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 12%;
+}
+
+.section_heading {
+  color: #9b804e;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
