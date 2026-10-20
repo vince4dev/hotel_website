@@ -1,5 +1,6 @@
 import About from "./Components/About/About";
 import BookTable from "./Components/BookTable/BookTable";
+import Contact from "./Components/Contact/Contact";
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
 import Offer from "./Components/Offer/Offer";
@@ -18,6 +19,7 @@ function App() {
       <Offer />
       <Staffs />
       <Testimonials />
+      <Contact />
     </>
   );
 }
