@@ -5,6 +5,7 @@ import Nav from "./Components/Nav/Nav";
 import Offer from "./Components/Offer/Offer";
 import Rooms from "./Components/Rooms/Rooms";
 import Staffs from "./Components/Staffs/Staffs";
+import Testimonials from "./Components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BookTable />
       <Offer />
       <Staffs />
+      <Testimonials />
     </>
   );
 }

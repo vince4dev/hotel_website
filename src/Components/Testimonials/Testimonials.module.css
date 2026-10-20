@@ -1,0 +1,71 @@
+.testi_wrapper {
+  align-items: center;
+}
+
+.testi_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.testi_title h2 {
+  font-size: 54px;
+}
+.testi_title p {
+  width: 50%;
+}
+
+.testi_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.testi_cards .testi_card {
+  background-color: rgb(251, 241, 232);
+  padding: 30px;
+  outline: 2px dashed #9b804e;
+  outline-offset: -10px;
+}
+.testi_cards .testi_card p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.testi_cards .testi_card .testi_profile {
+  position: relative;
+  display: flex;
+  gap: 15px;
+}
+.testi_cards .testi_card .testi_profile i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 60px;
+  color: #9b804e;
+}
+.testi_cards .testi_card .testi_profile img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.testi_cards .testi_card .testi_profile h2 {
+  font-weight: 500;
+}
+.testi_cards .testi_card .testi_profile h2 span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .testi_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testi_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
