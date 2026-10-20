@@ -1,0 +1,128 @@
+.bookTable_wrapper {
+  flex-direction: row !important;
+  background-color: #3b362e;
+  color: #fff;
+}
+
+.testimonial {
+  width: 50%;
+  margin: -120px 0 !important;
+  padding: 35px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  background: url("./../../assets/home-3-intertactive-image-1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.testimonial_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 15px;
+  background-color: rgba(131, 131, 131, 0.1);
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+.testimonial_wrapper p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  line-height: 25px;
+}
+.testimonial_wrapper .profile {
+  display: flex;
+  gap: 16px;
+}
+.testimonial_wrapper .profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.testimonial_wrapper .profile h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.testimonial_wrapper .profile h2 span {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 6px;
+  display: block;
+}
+
+.bookTable_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.bookTable_container small {
+  font-size: 22px;
+  color: #9b804e;
+}
+.bookTable_container h2 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.cards .card {
+  padding: 40px 30px;
+  background-color: #806b48;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  outline: 1px dashed #fff;
+  outline-offset: -10px;
+}
+.cards .card img {
+  width: 150px;
+  height: 40px;
+}
+.cards .card .card_content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.cards .card .card_content h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.cards .card .card_content a {
+  font-size: 16px;
+  color: #fff;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .cards .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cards .card .card_content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bookTable_wrapper {
+    flex-direction: column !important;
+  }
+
+  .bookTable_container {
+    margin-top: 140px;
+  }
+  .bookTable_container,
+  .testimonial {
+    width: 100%;
+  }
+}
