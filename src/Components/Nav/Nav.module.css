@@ -10,6 +10,11 @@
   left: 0;
 }
 
+.scrollNav {
+  background-color: #fff;
+  box-shadow: 4px 0 5px rgba(131, 131, 131, 0.5);
+}
+
 .nav_top {
   width: 100%;
   display: flex;

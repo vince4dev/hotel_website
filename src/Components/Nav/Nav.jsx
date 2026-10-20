@@ -3,13 +3,22 @@ import navCSS from "./../Nav/Nav.module.css";
 
 function Nav() {
   const menu = useRef();
+  const navbar = useRef();
 
   const menuHandler = () => {
     menu.current.classList.toggle(navCSS.showMenu);
   };
 
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
+      navbar.current.classList.add(navCSS.scrollNav);
+    } else {
+      navbar.current.classList.remove(navCSS.scrollNav);
+    }
+  });
+
   return (
-    <div className={navCSS.nav_wrapper}>
+    <div className={navCSS.nav_wrapper} ref={navbar}>
       <div className={navCSS.nav_top}>
         <div className={navCSS.left_side}>
           <span>+33 (0)7 54 67 87 36</span>
