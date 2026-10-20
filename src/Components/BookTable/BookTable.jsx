@@ -23,7 +23,7 @@ function BookTable() {
           <div className={bookTableCSS.profile}>
             <img src={testimonialImg} alt="user-image" />
             <h2>
-              Andriana Jemiala <span>Sesigner</span>
+              Andriana Jemiala <span>Designer</span>
             </h2>
           </div>
 
